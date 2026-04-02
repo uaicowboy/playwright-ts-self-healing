@@ -13,7 +13,8 @@
     "test": "playwright test",
     "test:ui": "playwright test --ui",
     "test:debug": "playwright test --debug",
-    "test:watch": "playwright test --watch"
+    "test:watch": "playwright test --watch",
+    "install:browsers": "playwright install chromium --with-deps"
   },
   "devDependencies": {
     "@playwright/test": "1.59.1",
@@ -23,6 +24,12 @@
     "ollama": "0.6.3",
     "dotenv": "16.4.7",
     "picocolors": "1.1.1",
-    "consola": "3.4.0"
+    "consola": "3.4.0",
+    "eslint": "^9.22.0",
+    "@eslint/js": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "prettier": "^3.5.0"
   }
 }
