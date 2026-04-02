@@ -6,6 +6,7 @@ blob-report/
 .vscode/
 .pwtest/
 .DS_Store
+.auth/
 
 # Playwright
 /playwright-report/
