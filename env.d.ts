@@ -7,8 +7,8 @@ declare global {
       HEADLESS: 'true' | 'false'
 
       // Self-healing
-      ENABLE_SELF_HEALING: 'true' | 'false'
-      HEALING_MAX_RETRIES: string
+      ENABLE_SELF_HEALING: true | false
+      HEALING_MAX_RETRIES: number
 
       // Local Ollama
       OLLAMA_HOST: string
